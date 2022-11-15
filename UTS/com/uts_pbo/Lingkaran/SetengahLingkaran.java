@@ -15,9 +15,15 @@ public class SetengahLingkaran implements Lingkaran{
     public SetengahLingkaran(){
         hasil = 0;
     }
+    
     @Override
     public void hitungLuas() {
-        hasil = (panjang * lebar) * (Math.PI * lebar * lebar);
+        hasil = (panjang * lebar) - ((3.14 * lebar * lebar) / 2);
+    }
+    
+    @Override
+    public void tampilkanLuas() {
+        System.out.println("luas nya adalah : " + this.getHasil());
     }
     
     public double getHasil(){

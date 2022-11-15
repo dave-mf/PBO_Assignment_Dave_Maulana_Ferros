@@ -13,8 +13,11 @@ import com.uts_pbo.Lingkaran.*;
 public class Main {
     
     public static void main(String[] args) {
-        Lingkaran x = new SetengahLingkaran();
-        LuasSetengah lkr = new LuasSetengah(x); 
+        Lingkaran circle_satu = new SetengahLingkaran();
+        LuasSetengah luasst = new LuasSetengah(circle_satu);
+        
+        luasst.hitung();
+        luasst.tampilkan();
         
     }
 }

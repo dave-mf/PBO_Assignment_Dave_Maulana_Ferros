@@ -10,8 +10,9 @@ package com.uts_pbo.Lingkaran;
  * @author Dave Maulana Ferros
  */
 public interface Lingkaran {
-    int panjang = 12;
-    int lebar = 7;
+    int panjang = 23;
+    int lebar = 9;
     
     void hitungLuas();
+    void tampilkanLuas();
 }
